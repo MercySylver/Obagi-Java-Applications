@@ -11,6 +11,13 @@ public class PrintMethod{
 		
 		//using the printf()
 		System.out.printf("My name is %s and I love %s. Good day everyone%n","Mercy","Java");
-		System.out.printf("I am %d years old",25);
+		System.out.printf("I am %d years old%n",25);
+		System.out.printf("I bought Java JDK with %f naira%n",159.345);
+		System.out.printf("I bought Java JDK with %c%.2f %n",'$',159.345);
+		
+		boolean isJavaFun = true;
+		System.out.printf("Is java fun? %b",isJavaFun);
+		
+		
 	}
 }
