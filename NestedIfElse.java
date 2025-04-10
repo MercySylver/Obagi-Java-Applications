@@ -10,6 +10,11 @@ public class NestedIfElse{
 		System.out.print("Enter Mark: ");
 		int mark = input.nextInt();
 		
+		if(mark >100){
+			System.out.println("Mark can not be greater than 100);
+		}
+		else{
+			
 		if(mark >= 80){
 			System.out.printf("Your name is %s%n",name);
 			System.out.printf("Your mark is %d%n",mark);
@@ -42,5 +47,6 @@ public class NestedIfElse{
 			System.out.printf("Your grade is %c%n",'F');
 		
 		}
+	  }
 	}
 }
